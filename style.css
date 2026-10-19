@@ -1,0 +1,151 @@
+*{
+     box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    background-color: white;
+}
+#section1{
+    
+}
+.one{
+/* background-color: aqua; */
+width: 100vw;
+}
+.div1{
+    /* background-color: blue; */
+}
+#nova{
+display: inline-block;
+padding-left: 70px;
+width:30%;
+/* background-color: brown; */
+  font-family: "Roboto", sans-serif;
+  font-weight: 450;
+}
+#nav{
+display: inline-block;
+ width: 30%;
+ /* background-color: burlywood; */
+}
+#nav~li{
+    display: inline-block;
+}
+#li{
+    /* background-color: aquamarine; */
+    display: inline-block;
+      padding: 0px 10px;
+      margin: 0px 5px;
+      font-family: "Roboto", sans-serif;
+}
+#navlink{
+ text-decoration-line:none ;
+        color:rgba(0, 0, 0, 0.556);
+        font-weight: 400;
+}
+#mix{
+    width: 35%;
+    display: inline-block;
+    /* background-color: bisque; */
+    text-align: right;
+    margin-top: 5px;
+    padding: 7px 0px;
+}
+#navpart{
+display: inline-block;
+padding-right: 10px;
+font-family: "Roboto", sans-serif;
+ color: rgba(128, 128, 128, 0.637);
+ font-size: 0.8rem;
+}
+#en{
+    display: inline-block;
+    color:rgb(150, 132, 31);
+}
+#startproject{
+display: inline-block;
+padding-right: 20px;
+}
+#start{
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    padding: 8px 10px;
+    font-family: "Roboto", sans-serif;
+}
+.div2{
+    /* background-color: blueviolet; */
+    padding-left: 70px;
+    width: 100vw;
+}
+#text{
+    width: 40%;
+    display: inline-block;
+    vertical-align:top;
+    margin-top: 100px;
+}
+#strategy{
+    color: rgb(204, 185, 75);
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.7rem;
+}
+#new{
+     font-family: "Roboto", sans-serif;
+     font-weight: 900;
+     color: black;
+     font-size: 2.5rem;
+     /* background-color: aqua; */
+}
+#brands{
+     font-family: "Roboto", sans-serif;
+     font-weight: 900;
+     color:rgb(186, 171, 84) ;
+     font-size: 2.3rem;
+     /* background-color: aquamarine; */
+}
+#websites{
+       font-family: "Roboto", sans-serif;
+       padding: 4px;
+}
+#clients{
+    padding-top: 5px;
+}
+#meetteam{
+font-family: "Roboto", sans-serif ;
+padding: 0px 5px;
+}
+#pro{
+color: white;
+background-color: black;
+padding: 8px;
+border-radius: 20px;
+}
+#anchor{
+    text-decoration-line:none ;
+    color: white;
+}
+#the{
+color: black;
+ text-decoration-line:none ;
+}
+#met{
+background-color: white;
+color: black;
+padding: 8px;
+border-radius: 20px;
+}
+#img{
+    width: 45%;
+    display: inline-block;
+  /* background-color: aqua; */
+  margin-left: 80px;
+}
+#imagesize{
+width: 650px;
+height: 600px;
+/* background-color: blueviolet; */
+border-radius: 50% 35% 60% 30%;
+object-fit: cover;
+aspect-ratio: 4/3;
+}
