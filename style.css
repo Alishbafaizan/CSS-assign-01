@@ -76,20 +76,21 @@ color: white;
 
 /* main 2 started */
 #main2{
-    background-color: rgb(122, 122, 189);
+    /* background-color: rgb(122, 122, 189); */
     width: 100%;
     height: 100%;
 }
 .fourth{
-    background-color: rgb(216, 136, 107);
+    /* background-color: rgb(216, 136, 107); */
     width: 45%;
     height:80%;
     display: inline-block;
     position: absolute;
-    left:170px
+    left:170px;
+    padding-top: 150px;
 }
 .div1{
-    background-color: aqua;
+    /* background-color: aqua; */
     display: inline-block;
     border-radius:30px ;
     padding: 0px 20px;
@@ -113,13 +114,6 @@ color: rgb(61, 128, 72);
 }
 .someone{
     color:#0F7A37;
-   border-bottom: 3px solid #F5A214;
-   /* transform: rotate(-3deg);
-   overflow: visible; */
-}
-.someone::after{
-    transform: rotate(-3deg);
-   overflow: visible;
 }
 .div3{
    font-family: sans-serif; 
@@ -133,20 +127,68 @@ color: rgb(61, 128, 72);
 }
 .now{
  padding: 10px 15px;
+ margin-right: 10px;
  border-radius: 20px;
  background-color:#149A46;
 color: white;
 border-style: none;
 }
 .story{
-padding: 10px 15px;
+padding: 5px 15px;
  border-radius: 20px;
- background-color:whitesmoke;
+ /* background-color:whitesmoke; */
 color:black;
 border-style: none;
 }
+.youtube{
+    /* background-color:orange; */
+    border: 1px solid black;
+    color: white;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    padding: 0px 3.5px;
+    vertical-align: middle;
+}
+.triangle{
+    width: 20px;
+    height: 20px;
+    border-radius:50% ;
+    color: solid black;
+    /* background-color: blanchedalmond; */
+   position: relative;
+   left: 2px;
+}
 .div5{
-    
+   background-color:white;
+   display: inline-block; 
+   padding: 0px 20px;
+   padding-right: 50px;
+   border-radius: 30px;
+}
+.image{
+display: inline-block;
+/* background-color: bisque; */
+padding: 0px;
+margin: 0px;
+  vertical-align: middle;
+}
+.followers{
+    width: 100px;
+    height:50px;
+    padding: 0px;
+    object-fit:contain;
+}
+.text{
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 5px;
+}
+.numbers{
+font-weight: 600;
+font-size: medium;
+}
+.trustus{
+    font-size: small;
 }
 .fifth{
     /* background-color: rgb(168, 120, 120); */
@@ -163,5 +205,6 @@ border-style: none;
     top:90px ;
     width: 99%;
     height: 90%;
+    opacity: 30px;
     border-radius: 25px;
 }
