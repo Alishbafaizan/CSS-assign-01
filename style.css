@@ -1,9 +1,10 @@
-html{
+    html{
     scroll-behavior: smooth;
 }
 body{
     margin: 0px;
     font-family: sans-serif;
+    overflow-x: hidden;
 }
 *{
     box-sizing: border-box;
@@ -12,7 +13,7 @@ body{
 #section1{
     width: 80vw;
     height: 100vh;
-    margin: 0px auto;
+    margin: 20px auto;
     /* background-color: blue; */
 }
 /* main 1 started */
@@ -661,7 +662,7 @@ margin-top: 215px;
     left: 390px;
 }
 .maincontact{
-    background-color: #149A45;
+    /* background-color: #149A45; */
    width: 80vw;
    height: 73vh;
 }
@@ -675,16 +676,6 @@ margin-top: 215px;
     margin-top: 20px;
     border: 3px solid  rgb(239, 236, 236);
     position: relative;
-}
-.contactuser{
-    /* background-color: aquamarine; */
-    display: inline-block;
-    border-radius: 20px;
-    width: 55%;
-    height: 90%;
-    margin-left:20px;
-    margin-top: 20px;
-    border: 3px solid  rgb(239, 236, 236);
 }
 .details{
    /* background-color: #7fab18; */
@@ -738,4 +729,332 @@ right: 84px;
        height: 240px;
        display: inline-block;
 }
+#mapofhopewell{
+    width: 100%;
+    height: 100%;
+}
+.contactuser{
+    /* background-color: aquamarine; */
+    display: inline-block;
+    border-radius: 20px;
+    padding: 20px;
+    padding-top: 30px;
+    width: 55%;
+    height: 90%;
+    margin-left:20px;
+    /* margin-top: 20px; */
+    border: 3px solid  rgb(239, 236, 236);
+    position: relative;
+    bottom: 183px;
+}
+.formlabel1{
+    /* background-color: #84b82e; */
+    padding: 10px 0px;
+      padding-right:50px ;
+}
+.formlabel2{
+    /* background-color: #84b82e; */
+     padding: 10px 0px;
+     position: relative;
+     right: 100px;
+       padding-right:20px ;
+}
+.formlabel3{
+    /* background-color: #84b82e; */
+    position: relative;
+    top: 33px;
+    right: 295px;
+      padding: 10px 0px;
+        padding-right:70px ; 
+}
+.formlabel4{
+    /* background-color: #84b82e; */
+    position: relative;
+    top:75px;
+    right: 345px;
+      padding: 10px 0px;
+        padding-right:70px ; 
+}
+#text{
+    position: relative;
+    /* background-color: #149A46; */
+    top: 25px;
+    right: 75px;
+}
+#email{
+    position: relative;
+    /* background-color: #149A46; */
+    top: 3px;
+    left: 395px;
+}
+#subject{
+    position: relative;
+    /* background-color: #149A46; */
+    left:294px;
+    top: 8px;
+}
+#message{
+    position: relative;
+    /* background-color: #149A46; */
+    top:85px;
+}
+.sended{
+    padding: 10px;
+    border-radius:25px ;
+    width: 575px;
+    position: relative;
+    top: 120px;
+    border:none ;
+    color: white;
+    height: 40px;
+    background-color: #149A45;
+}
+#aeroplane{
+    color: white;
+}
+
+
 /* section 5 ended */
+/* ---------------------------------------- */
+/* section 6 started */
+
+#section6{
+    background-color:#0C1C23;
+    width: 100vw;
+    height: 100vh;
+}
+.footer1{
+    /* background-color: #f59e0b; */
+    width: 360px;
+    height: 400px;
+    display: inline-block;
+    margin-left :60px;
+    margin-top:240px ;
+    position: relative;
+    bottom: 100px;
+     /* margin-bottom: 30px; */
+}
+.part1{
+    margin-left: 10px;
+}
+#faheart{
+    color: white;
+}
+.hoping{
+    color: white;
+}
+.part2{
+    /* background-color: #16a34a; */
+    padding: 10px 0px;
+    margin-left: 10px;
+    color: white;
+}
+.facebook{
+    background-color: #19202D;
+    display: inline-block;
+    color: #919395;
+    padding:10px ;
+    border-radius: 13px;
+}
+.firrst{
+    margin-left: 10px;
+}
+.footer1button{
+    border-radius: 20px;
+    background-color: #19202D;
+    border: none;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.outer{
+    background-color: #f59e0b;
+    padding: 5px;
+    border-radius: 10px;
+}
+.footer2{
+    /* background-color: #f59e0b; */
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    margin-left :40px;
+    margin-top:140px ;
+     margin-bottom: 30px;
+     position: relative;
+     bottom: 110px;
+}
+.links{
+    display:inline-block;
+    padding-top: 8px;
+    border-bottom: 3px solid rgb(203, 82, 102) ;
+   /* text-underline-offset: 5px; */
+   /* text-underline-color: linear-gradient(90deg,rgba(42, 46, 155, 1) 0%, rgba(197, 199, 87, 1) 50%, rgba(198, 83, 237, 1) 100%); */
+   /* text-decoration-color: white;    */
+   /* text-decoration-line:underline ; */
+      /* background-color: #16a34a ; */
+      color: white;
+}
+.links2{
+    display:block;
+    padding-top: 8px;
+    /* border-bottom: 3px solid pink ; */
+   /* text-underline-offset: 5px; */
+   /* text-underline-color: linear-gradient(90deg,rgba(42, 46, 155, 1) 0%, rgba(197, 199, 87, 1) 50%, rgba(198, 83, 237, 1) 100%); */
+   /* text-decoration-color: white;    */
+   /* text-decoration-line:underline ; */
+      /* background-color: #16a34a ; */
+      color: white;
+      padding-left: 40px;
+}
+.footer3{
+    /* background-color: #f59e0b; */
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    margin-left :40px;
+    margin-top:140px ;
+     margin-bottom: 30px;
+         position: relative;
+     bottom: 110px;
+}
+.links3{
+    display:inline-block;
+    padding-top: 8px;
+    border-bottom: 3px solid rgb(203, 82, 102) ;
+   /* text-underline-offset: 5px; */
+   /* text-underline-color: linear-gradient(90deg,rgba(42, 46, 155, 1) 0%, rgba(197, 199, 87, 1) 50%, rgba(198, 83, 237, 1) 100%); */
+   /* text-decoration-color: white;    */
+   /* text-decoration-line:underline ; */
+      /* background-color: #16a34a ; */
+      color: white;
+}
+.links4{
+    display:block;
+    padding-top: 8px;
+    /* border-bottom: 3px solid pink ; */
+   /* text-underline-offset: 5px; */
+   /* text-underline-color: linear-gradient(90deg,rgba(42, 46, 155, 1) 0%, rgba(197, 199, 87, 1) 50%, rgba(198, 83, 237, 1) 100%); */
+   /* text-decoration-color: white;    */
+   /* text-decoration-line:underline ; */
+      /* background-color: #16a34a ; */
+      color: white;
+      padding-left: 40px;
+}
+.footer4{
+    /* background-color: #f59e0b; */
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    margin-left :40px;
+    margin-top:140px ;
+    margin-bottom: 30px;
+        position: relative;
+     top: 32px;
+}
+.links5{
+    display:inline-block;
+    padding-top: 8px;
+    border-bottom: 3px solid rgb(203, 82, 102) ;
+   /* text-underline-offset: 5px; */
+   /* text-underline-color: linear-gradient(90deg,rgba(42, 46, 155, 1) 0%, rgba(197, 199, 87, 1) 50%, rgba(198, 83, 237, 1) 100%); */
+   /* text-decoration-color: white;    */
+   /* text-decoration-line:underline ; */
+      /* background-color: #16a34a ; */
+      color: white;
+}
+.oneee{
+   position: relative;
+   right: 15px;
+}
+.onee{
+    bottom: 20px;
+}
+.oneeeee{
+    bottom: 20px;
+}
+.white1{
+    color: white;
+    position: relative;
+    left: 37px;
+    bottom: 28px;
+    font-size: 0.9rem;
+}
+.white2{
+    color: white;
+    position: relative;
+    right: 26px;
+    bottom: 15px;
+}
+.white3{
+    color: white;
+    position: relative;
+    right: 27px;
+    bottom: 13px;
+}
+.news{
+    position: relative;
+    bottom: 28px;
+}
+.emailaddress{
+    border: none;
+    margin-left: 5px;
+    border-radius: 20px;
+    text-align: left;
+    width: 290px;
+    height: 40px;
+}
+.arrow{
+    position: relative;
+    left: 120px;
+    background-color: #0F7A37;
+    padding: 10px;
+    border-radius: 50%;
+    color: white;
+    /* background-color: aquamarine; */
+}
+.footer5{
+    /* background-color: #f59e0b; */
+    width: 1000px;
+    height: 100px;
+    margin:0px auto ;
+    margin-bottom: 20px;
+    border-top: 1px solid rgb(206, 205, 205);
+        position: relative;
+     bottom: 110px;
+}
+.copyright{
+    padding-top: 20px;
+color: white;
+}
+.policy1{
+    padding-right:20px ;
+    margin-top: 20px;
+color: white;
+/* background-color: #84b82e; */
+}
+.icons{
+    /* background-color: aquamarine; */
+    display: inline-block;
+    position: relative;
+    bottom: 210px;
+    left: 1050px;
+    color: white;
+}
+.keys{
+    /* background-color: bisque; */
+    padding: 10px;
+}
+.madewithlove{
+    position: relative;
+    bottom: 195px;
+    left: 800px;
+    color: white;
+}
+.green{
+    color: #0F7A37;
+}
+
+
+
+/* section 6 ended */
